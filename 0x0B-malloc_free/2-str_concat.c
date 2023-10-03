@@ -1,16 +1,16 @@
 #include "main.h"
-#include <stdlib.h>		
-/**		
- * str_concat - get ends of input and add together for size		
- * @s1: input one to concat		
- * @s2: input two to concat		
- * Return: concat of s1 and s2		
+#include <stdlib.h>
+/**
+ * str_concat - get ends of input
+ * @s1: input 1 to concatinate
+ * @s2: input 2 to concatinate
+ * Return: concatination of 1 and two
  */
-		
-char *str_concat(char *s1, char *s2)		
+char *str_concat(char *s1, char *s2)
 {
-char *conct;
+char *concat;
 int i, ci;
+
 if (s1 == NULL)
 s1 = "";
 if (s2 == NULL)
@@ -37,4 +37,3 @@ i++, ci++;
 conct[i] = '\0';
 return (conct);
 }
-
