@@ -33,7 +33,6 @@ return (i);
 char *_strcpy(char *dest, char *src)
 {
 int len, i;
-
 len = 0;
 while (src[len] != '\0')
 {
@@ -47,6 +46,7 @@ dest[i] = src[i];
 dest[i] = '\0';
 return (dest);
 }
+
 /**
  * new_dog - creates a new dog
  * @name: name of the dog
@@ -85,5 +85,4 @@ _strcpy(dog->owner, owner);
 dog->age = age;
 return (dog);
 }
-                     
 
